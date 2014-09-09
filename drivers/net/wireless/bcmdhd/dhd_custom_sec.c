@@ -228,6 +228,8 @@ void get_customized_country_code(char *country_iso_code, wl_country_t *cspec)
 
 #define MACBUFFER_SZ (sizeof("00:11:22:33:44:55\n"))
 
+#define MACBUFFER_SZ (sizeof("00:11:22:33:44:55\n"))
+
 #ifdef READ_MACADDR
 int dhd_read_macaddr(struct dhd_info *dhd, struct ether_addr *mac)
 {
