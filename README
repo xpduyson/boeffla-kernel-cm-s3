@@ -1,3 +1,25 @@
+Compiling instructions:
+
+1) Install all needed packages to compile the official Linux kernel
+   (https://kernel.org)
+2) Unpack GCC 5.3.1 Linaro to "/opt/toolchains" (can be found here:
+   http://releases.linaro.org/components/toolchain/binaries/5.3-2016.02/arm-eabi/gcc-linaro-5.3-2016.02-x86_64_arm-eabi.tar.xz)
+3) Clone this repository to a directory of your choice using the
+   following command:
+   git clone https://github.com/Oebbler/elite-boeffla-kernel-cm11.0-i9300.git
+4) open a terminal window and go to the directory where you downloaded
+   this repository (using the cd command)
+5) Type "sudo echo" and then your password to activate sudo
+6) Type "./bbuild.sh a"
+7) Wait 5 to 10 minutes until everything is finished
+8) Go back to the folder where you cloned this repository and change to
+   the "repack" directory.
+9) Copy the "elite-boeffla-kernel" zip and the zip.md5 file to your
+   phone and install it using a custom recovery image.
+
+_____________________
+
+
 	Linux kernel release 3.x <http://kernel.org/>
 
 These are the release notes for Linux version 3.  Read them carefully,
