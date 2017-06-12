@@ -10,7 +10,7 @@
 # Parameters to be configured manually
 #######################################
 
-BOEFFLA_VERSION="2.8-CM11.0-NG-i9300"
+BOEFFLA_VERSION="2.15-CM11.0-NG-i9300"
 EXTENDED_CMDLINE=""
 
 TOOLCHAIN="/opt/toolchains/gcc-linaro-5.4.1-2017.05-x86_64_arm-eabi/bin/arm-eabi-"
